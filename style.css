@@ -1,0 +1,111 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #82d4fa 0%, #4b7fa2 100%);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Gradient Div */
+.gradient-div {
+    background: linear-gradient(135deg, #40f886 0%, #4b7fa2 100%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    width:800px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+   font-family: "monaco", monospace;
+}
+
+/* Buttons */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Results and Terms */
+.results {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.term {
+    margin-bottom: 1rem;
+}
+
+.term b {
+    display: block;
+    font-size: 1.1rem;
+}
+
+.terms-list {
+    margin-top: 1rem;
+}
+
+.terms-list button {
+    background: #f4f4f4;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+ 
+.boneur {
+    margin-left: 40;
+
+    
+}
